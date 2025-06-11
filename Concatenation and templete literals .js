@@ -10,3 +10,4 @@ console.log(fullName); // Output: John Doe
 let age = 22;
 let message = `my name is ${firstName} and I am ${age} years old.`;
 console.log(message); // Output: my name is John and I am 22 years old.
+
