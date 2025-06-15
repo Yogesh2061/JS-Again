@@ -2,7 +2,7 @@ class Solution {
     firstDigit(num) {
         while(num >= 10) {
             num /= 10;
-            num = Math.floor(num);
+            num = Math.floor(num); // Ensure num is an integer
         }
         
         return num;
